@@ -10,6 +10,7 @@ This repository is intended to provide the source code for the firmware shipped 
 keyboards/symptomv1/        QMK keyboard source and VIA keymap
 firmware/symptomv1_via.uf2  Tested production UF2 firmware image
 docs/keymap_reference/      Production keymap layer screenshots
+releases/r001/              Frozen release copy for the initial shipping batch
 FIRMWARE_BUILD_RECORD.md    Build command, metadata, and SHA-256 record
 ```
 
@@ -26,6 +27,7 @@ Symptom v1.0 is not part of upstream QMK at the time of this release. The build 
 | MCU | RP2040 |
 | Interface | Wired USB HID keyboard |
 | Production keymap | `via` |
+| Current recorded release | `r001` |
 | Build command | `qmk compile -kb symptomv1 -km via` |
 | Required local keyboard path before build | `qmk_firmware/keyboards/symptomv1/` |
 | QMK upstream commit | `407e6e242e2b96f1bd0aa21520ee6bef45321e94` |
@@ -41,7 +43,7 @@ Symptom v1.0 is not part of upstream QMK at the time of this release. The build 
 qmk compile -kb symptomv1 -km via
 ```
 
-The prebuilt production UF2 is retained in `firmware/symptomv1_via.uf2`.
+The prebuilt production UF2 is retained in `firmware/symptomv1_via.uf2`. The frozen release copy for the first shipping batch is retained in `releases/r001/`.
 
 ## License
 

@@ -25,6 +25,7 @@ Only the customer production firmware is included.
 | Interface | Wired USB HID keyboard |
 | Production keymap | `via` |
 | Build command | `qmk compile -kb symptomv1 -km via` |
+| QMK upstream commit | `407e6e242e2b96f1bd0aa21520ee6bef45321e94` |
 | Tested UF2 SHA-256 | `F23F3ADE1FA57C2E41FC7406C5ED0CDDB79F3A4BEB64E582A37909A02E95BB4A` |
 
 ## Build

@@ -15,6 +15,8 @@ FIRMWARE_BUILD_RECORD.md    Build command, metadata, and SHA-256 record
 
 Only the customer production firmware is included.
 
+Symptom v1.0 is not part of upstream QMK at the time of this release. The build command below works only after this repository's `keyboards/symptomv1/` folder has been copied into a local QMK checkout.
+
 ## Firmware
 
 | Item | Value |
@@ -25,13 +27,14 @@ Only the customer production firmware is included.
 | Interface | Wired USB HID keyboard |
 | Production keymap | `via` |
 | Build command | `qmk compile -kb symptomv1 -km via` |
+| Required local keyboard path before build | `qmk_firmware/keyboards/symptomv1/` |
 | QMK upstream commit | `407e6e242e2b96f1bd0aa21520ee6bef45321e94` |
 | Tested UF2 SHA-256 | `F23F3ADE1FA57C2E41FC7406C5ED0CDDB79F3A4BEB64E582A37909A02E95BB4A` |
 
 ## Build
 
 1. Set up QMK MSYS according to the official QMK documentation.
-2. Copy this repository's `keyboards/symptomv1/` folder into your local QMK checkout's `keyboards/` folder, so the final path is `qmk_firmware/keyboards/symptomv1/`.
+2. Copy this repository's `keyboards/symptomv1/` folder into your local QMK checkout's `keyboards/` folder, so the final path is `qmk_firmware/keyboards/symptomv1/`. A fresh QMK install will not contain this keyboard folder by itself.
 3. Open QMK MSYS, go to the `qmk_firmware` root, and run:
 
 ```sh

@@ -17,6 +17,7 @@ Last updated: 2026-06-06
 | Build environment | QMK MSYS |
 | Build command | `qmk compile -kb symptomv1 -km via` |
 | Build source placement | `symptomv1/` keyboard folder copied into local `qmk_firmware/keyboards/`, resulting in `qmk_firmware/keyboards/symptomv1/` |
+| Upstream QMK inclusion status | Symptom v1.0 is not part of upstream QMK at the time of this release; the keyboard folder must be supplied from this repository before running the build command |
 | QMK upstream repository | `https://github.com/qmk/qmk_firmware` |
 | QMK upstream commit | `407e6e242e2b96f1bd0aa21520ee6bef45321e94` |
 | QMK upstream commit date | 2026-04-11 10:15:09 +0100 |

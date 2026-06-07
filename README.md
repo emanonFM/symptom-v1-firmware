@@ -10,7 +10,7 @@ This repository is intended to provide the source code for the firmware shipped 
 keyboards/symptomv1/        QMK keyboard source and VIA keymap
 firmware/symptomv1_via.uf2  Tested production UF2 firmware image
 docs/keymap_reference/      Production keymap layer screenshots
-docs/switches/              Switch option notes and datasheets
+docs/switches/datasheets/   Switch datasheets linked from the shop page
 releases/r001/              Frozen release copy for the initial shipping batch
 FIRMWARE_BUILD_RECORD.md    Build command, metadata, and SHA-256 record
 ```
